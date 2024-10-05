@@ -1,0 +1,22 @@
+/* Custom styles for the Activity Logger admin page */
+#select-all-logs {
+    margin-left: 5px;
+}
+
+table.widefat th, table.widefat td {
+    text-align: left;
+    padding: 10px;
+}
+
+.activity-logger__checkbox {
+    margin: 0 !important;
+    
+}
+
+.activity-logger__check-column {
+    width: 60px;
+}
+
+.activity-logger__check-column--header {
+    padding: 8px 0 8px 2px
+}
