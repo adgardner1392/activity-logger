@@ -2,12 +2,12 @@
 Contributors: Adam Gardner
 Tags: logging, cms, activity, WordPress
 Requires at least: 5.0
-Tested up to: 6.0
-Stable tag: 1.0
+Tested up to: 6.6.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Logs all activity within the CMS by logged-in users (e.g., editing posts, deleting posts, changing settings). Allows for user-defined exclusions, filtering, and log exports.
+Logs all activity within the CMS by logged-in users. Allows for user-defined exclusions, filtering, and log exports.
 
 == Description ==
 
@@ -61,6 +61,16 @@ Yes, you can either delete individual log entries or select multiple entries for
 We welcome feedback and suggestions for new features!
 
 == Changelog ==
+
+= 1.1 = 
+* Security updates: nonce validation and input sanitization for better security.
+* Implemented caching for logs to improve performance.
+* Fixed issues with date filtering in search logs.
+* Prefill search filters with selected values on results page.
+* Refactored SQL queries to ensure proper preparation and avoid security risks.
+* Added detailed logging for user profile updates and password resets.
+* Minor UI improvements in the admin area for better usability.
+* Removed language translation placeholder.
 
 = 1.0 =
 * Initial release.
