@@ -20,7 +20,7 @@ Activity Logger is a plugin that helps you keep track of all activities carried 
 - Logs user login, logout, profile updates, and password resets.
 - Supports bulk and individual deletion of logs.
 - Search and filter logs by username, action, post type, or date.
-- Export logs in CSV format with customizable fields.
+- Export logs in CSV format.
 - Settings page for defining exclusions (option names or prefixes).
 - Custom admin menu for easy navigation and configuration of logs.
 
@@ -42,7 +42,7 @@ You can exclude certain options or prefixes from being logged by adding them to 
 Yes, the plugin provides a search and filter interface where you can filter logs by username, action (created, updated, deleted), post type, and date range. You can also search for specific terms.
 
 = Can I export the logs? =
-Yes, you can export the logs to a CSV file and customize the fields included in the export. The export functionality is available under a separate **Export Logs** menu.
+Yes, you can export the logs to a CSV file. The export functionality is available under a separate **Export Logs** menu.
 
 = Can I delete individual or multiple log entries? =
 Yes, you can either delete individual log entries or select multiple entries for bulk deletion using the checkbox and dropdown on the **Activity Logs** page.
@@ -82,5 +82,5 @@ We welcome feedback and suggestions for new features!
 * User login, logout, profile updates, and password reset logging.
 * Bulk and individual deletion of logs.
 * Search and filter logs by user, action, post type, and date.
-* Export logs as CSV with customizable fields.
+* Export logs as CSV.
 * Added settings to exclude specific option names from being logged.
