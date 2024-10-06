@@ -62,6 +62,9 @@ We welcome feedback and suggestions for new features!
 
 == Changelog ==
 
+= 1.1.1 = 
+* Removed language domain path reference.
+
 = 1.1 = 
 * Security updates: nonce validation and input sanitization for better security.
 * Implemented caching for logs to improve performance.

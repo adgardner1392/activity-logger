@@ -3,12 +3,11 @@
 Plugin Name: Activity Logger
 Plugin URI: https://github.com/adgardner1392/activity-logger
 Description: Logs all activity within the CMS by logged-in users (e.g., editing posts, deleting posts, changing settings), with user-defined exclusions, filtering, and log export functionality.
-Version: 1.1
+Version: 1.1.1
 Author: Adam Gardner
 Author URI: https://github.com/adgardner1392
 License: GPLv2 or later
 Text Domain: activity-logger
-Domain Path: /languages
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
