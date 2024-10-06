@@ -3,7 +3,7 @@ Contributors: Adam Gardner
 Tags: logging, cms, activity, WordPress
 Requires at least: 5.0
 Tested up to: 6.6.2
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
